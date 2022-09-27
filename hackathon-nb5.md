@@ -22,6 +22,8 @@ Self=description signer -generate signed .json and .did file: https://github.com
 
 Verifiable Credentials context: https://www.w3.org/TR/vc-data-model/#contexts
 
+Self-description creation wizard: https://sd-creation-wizard.gxfs.dev/
+
 ## Compliance service
 Overview: https://compliance.gaia-x.eu/guide/gaia-x-trust-framework.html#overview
 https://gitlab.com/gaia-x/lab/compliance/gx-compliance
