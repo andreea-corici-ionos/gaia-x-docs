@@ -28,6 +28,18 @@ Self-description creation wizard: https://sd-creation-wizard.gxfs.dev/
 Overview: https://compliance.gaia-x.eu/guide/gaia-x-trust-framework.html#overview
 Code: https://gitlab.com/gaia-x/lab/compliance/gx-compliance
 
+The Gaia-X Compliance service
+
+```mermaid
+flowchart LR
+
+in[Verifiable Presentation]
+compliance[Gaia-X Compliance]
+out[Verifiable Credential]
+
+in --> |input|compliance --> |output|out
+```
+
 Documentation: https://gitlab.com/gaia-x/technical-committee/federation-services/self-description-model/-/blob/main/docs/compliance.md
 
 How to setup certificates: https://gitlab.com/gaia-x/lab/compliance/gx-compliance#how-to-setup-certificates
