@@ -26,7 +26,9 @@ Self-description creation wizard: https://sd-creation-wizard.gxfs.dev/
 
 ## Compliance service
 Overview: https://compliance.gaia-x.eu/guide/gaia-x-trust-framework.html#overview
-https://gitlab.com/gaia-x/lab/compliance/gx-compliance
+Code: https://gitlab.com/gaia-x/lab/compliance/gx-compliance
+
+Documentation: https://gitlab.com/gaia-x/technical-committee/federation-services/self-description-model/-/blob/main/docs/compliance.md
 
 How to setup certificates: https://gitlab.com/gaia-x/lab/compliance/gx-compliance#how-to-setup-certificates
 
