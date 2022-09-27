@@ -65,5 +65,6 @@ https://portal.minimal-gaia-x.eu/asset/did:op:87152E582e3B05Cc6940E9763b9e0c22eA
 
 # 5. From other sessions:
 
+Self-description wizard: https://gitlab.com/gaia-x/data-infrastructure-federation-services/self-description-tooling/sd-creation-wizard
 Sovereign Cloud Stack (OpenStack, Terraform, Kubernetes): https://github.com/SovereignCloudStack
 Minimal viable GAIA-X https://github.com/deltaDAO/mvg-portal
