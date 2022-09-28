@@ -18,7 +18,7 @@ GX Registry shapes: https://gitlab.com/gaia-x/lab/compliance/gx-registry/-/blob/
 
 Example of self-descriptions: https://gitlab.com/gaia-x/gaia-x-community/gx-hackathon/gx-hackathon-5/-/tree/main/
 
-Self=description signer -generate signed .json and .did file: https://github.com/deltaDAO/self-description-signer, https://github.com/deltaDAO/self-description-signer/blob/main/config/self-description.json
+Self=description signer - used to generate signed .json and .did file: https://github.com/deltaDAO/self-description-signer, https://github.com/deltaDAO/self-description-signer/blob/main/config/self-description.json
 
 Verifiable Credentials context: https://www.w3.org/TR/vc-data-model/#contexts
 
@@ -26,6 +26,7 @@ Self-description creation wizard: https://sd-creation-wizard.gxfs.dev/
 
 ## Compliance service
 Overview: https://compliance.gaia-x.eu/guide/gaia-x-trust-framework.html#overview
+
 Code: https://gitlab.com/gaia-x/lab/compliance/gx-compliance
 
 The Gaia-X Compliance service
@@ -33,14 +34,14 @@ The Gaia-X Compliance service
 ```mermaid
 flowchart LR
 
-in[Verifiable Presentation]
+in[Verifiable Presentation\n with Verifiable Credential by Value or by Reference]
 compliance[Gaia-X Compliance]
 out[Verifiable Credential]
 
 in --> |input|compliance --> |output|out
 ```
 
-Documentation: https://gitlab.com/gaia-x/technical-committee/federation-services/self-description-model/-/blob/main/docs/compliance.md
+The diagram is extracted from this wiki: https://gitlab.com/gaia-x/technical-committee/federation-services/self-description-model/-/blob/main/docs/compliance.md
 
 How to setup certificates: https://gitlab.com/gaia-x/lab/compliance/gx-compliance#how-to-setup-certificates
 
